@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="home">
+      <div class="container home__wrapper">
+        <div class="home__wrap">
+          <div class="home__categories">
+            <ul class="home__categories-list js-categories-list">
+              <li class="home__categories-item home__categories-item-active">
+                All categories
+              </li>
+            </ul>
+          </div>
+          <div class="home__support">
+            <h3 class="home__support-title">Support Ukraine</h3>
+            <ul class="home__support-list js-supportList"></ul>
+            <button class="home__support-btn" type="button"></button>
+          </div>
+        </div>
+        <div class="home__books">
+          <h2 class="home__books-title js-books-title">Best Sellers Books</h2>
+          <ul class="home__books-items js-books-wrapper"></ul>
+        </div>
+      </div>
+    </section>
+    <script src="categories.js" type="module"></script>
+    <script src="supportUa.js" type="module"></script>
+  </body>
+</html>
